@@ -17,6 +17,7 @@ public class GoalCollider : MonoBehaviour, ICollectible
         {
             AudioManager.Instance.PlaySFX("success");
             GameManager.Instance.EndGame(GameState.Win);
+            GameManager.Instance.addScore(1000);
         }
     }
 }

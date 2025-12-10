@@ -2,7 +2,7 @@
 
 public class Coin : MonoBehaviour, ICollectible
 {
-    [SerializeField] private int value = 10;
+    [SerializeField] private int value = 100;
     public GameObject popupTextPrefab;   // kéo prefab vào
 
     public void OnCollected(PlayerManager manager)

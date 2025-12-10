@@ -32,7 +32,9 @@ public class PlayerController : MonoBehaviour
     }
     private void FixedUpdate()
     {
+       float canFlight= PlayerManager.Instance.GetFuel();
         OnBeforeForce?.Invoke(this, EventArgs.Empty);
+        if(canFlight<=0) return;
         this.LauderFly();
         this.LauderRotation();
         this.PlayerSound();

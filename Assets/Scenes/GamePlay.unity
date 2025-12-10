@@ -535,11 +535,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelPrefabs:
   - {fileID: 635618150886165974, guid: f1d303fe93d960b4e83aa06413cc3e9f, type: 3}
-  - {fileID: 1587072934342053366, guid: 43c43da7835aa6d41a1f1be274ace3c7, type: 3}
-  - {fileID: 1587072934342053366, guid: 0008c385ab508a446a0001b3e01b90ba, type: 3}
-  - {fileID: 1587072934342053366, guid: 09b5b0b5c38090c4cbaa3b2f39850b0a, type: 3}
   - {fileID: 1587072934342053366, guid: d6d2e05b24587cc48838989d58d6efae, type: 3}
+  - {fileID: 1587072934342053366, guid: 0008c385ab508a446a0001b3e01b90ba, type: 3}
   - {fileID: 1587072934342053366, guid: e5df91553d6ebc44e9018f2fec8f7fb7, type: 3}
+  - {fileID: 1587072934342053366, guid: 43c43da7835aa6d41a1f1be274ace3c7, type: 3}
+  - {fileID: 1587072934342053366, guid: 09b5b0b5c38090c4cbaa3b2f39850b0a, type: 3}
   levelParent: {fileID: 285839126}
   playerPrefab: {fileID: 5388945945207889702, guid: e771efbbe9b6afe45a4c721e8411e185, type: 3}
   virtualCamera: {fileID: 1260360346}

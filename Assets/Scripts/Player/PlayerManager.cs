@@ -62,7 +62,10 @@ public class PlayerManager : MonoBehaviour
         Ondie.Invoke(this, EventArgs.Empty);
         Destroy(gameObject);
     }
-
+    public float GetFuel()
+    {
+        return Fuel;
+    }
 
 
 
