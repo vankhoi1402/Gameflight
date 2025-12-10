@@ -397,8 +397,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
   - {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
   m_LocalAABB:
-    m_Center: {x: 23.434507, y: -2.3523064, z: 0}
-    m_Extent: {x: 30.015003, y: 7.125, z: 0}
+    m_Center: {x: 25.669504, y: -13.352306, z: 0}
+    m_Extent: {x: 47.5, y: 18.125, z: 0}
   m_SpriteSortPoint: 0
 --- !u!114 &7939749334892213966
 MonoBehaviour:
@@ -415,7 +415,39 @@ MonoBehaviour:
   m_Spline:
     m_IsOpenEnded: 0
     m_ControlPoints:
-    - position: {x: -6.550497, y: -1.6473063, z: 0}
+    - position: {x: -6.550497, y: -1.6473064, z: 0}
+      leftTangent: {x: 0, y: 0, z: 0}
+      rightTangent: {x: 0, y: 0, z: 0}
+      mode: 0
+      height: 1
+      spriteIndex: 0
+      corner: 1
+      m_CornerMode: 1
+    - position: {x: -13.467165, y: -1.5703537, z: 0}
+      leftTangent: {x: 0, y: 0, z: 0}
+      rightTangent: {x: 0, y: 0, z: 0}
+      mode: 0
+      height: 1
+      spriteIndex: 0
+      corner: 1
+      m_CornerMode: 1
+    - position: {x: -5.830496, y: -31.477306, z: 0}
+      leftTangent: {x: 0, y: 0, z: 0}
+      rightTangent: {x: 0, y: 0, z: 0}
+      mode: 0
+      height: 1
+      spriteIndex: 0
+      corner: 1
+      m_CornerMode: 1
+    - position: {x: -21.830496, y: -1.4773059, z: 0}
+      leftTangent: {x: 0, y: 0, z: 0}
+      rightTangent: {x: 0, y: 0, z: 0}
+      mode: 0
+      height: 1
+      spriteIndex: 0
+      corner: 1
+      m_CornerMode: 1
+    - position: {x: -19.830496, y: 2.522694, z: 0}
       leftTangent: {x: 0, y: 0, z: 0}
       rightTangent: {x: 0, y: 0, z: 0}
       mode: 0
@@ -431,7 +463,31 @@ MonoBehaviour:
       spriteIndex: 0
       corner: 1
       m_CornerMode: 1
-    - position: {x: 53.4495, y: 4.3526936, z: 0}
+    - position: {x: 53.4495, y: 4.352694, z: 0}
+      leftTangent: {x: 0, y: 0, z: 0}
+      rightTangent: {x: 0, y: 0, z: 0}
+      mode: 0
+      height: 1
+      spriteIndex: 0
+      corner: 1
+      m_CornerMode: 1
+    - position: {x: 73.1695, y: -0.4773059, z: 0}
+      leftTangent: {x: 0, y: 0, z: 0}
+      rightTangent: {x: 0, y: 0, z: 0}
+      mode: 0
+      height: 1
+      spriteIndex: 0
+      corner: 1
+      m_CornerMode: 1
+    - position: {x: 55.169502, y: -25.477306, z: 0}
+      leftTangent: {x: 0, y: 0, z: 0}
+      rightTangent: {x: 0, y: 0, z: 0}
+      mode: 0
+      height: 1
+      spriteIndex: 0
+      corner: 1
+      m_CornerMode: 1
+    - position: {x: 60.325417, y: -1.2393537, z: 0}
       leftTangent: {x: 0, y: 0, z: 0}
       rightTangent: {x: 0, y: 0, z: 0}
       mode: 0
@@ -628,9 +684,16 @@ MonoBehaviour:
   m_Creator: {fileID: 0}
   m_Modifiers: []
   m_ColliderSegment:
-  - {x: -6.550497, y: -1.6473063}
+  - {x: -6.550497, y: -1.6473064}
+  - {x: -13.467165, y: -1.5703537}
+  - {x: -5.830496, y: -31.477306}
+  - {x: -21.830496, y: -1.4773059}
+  - {x: -19.830496, y: 2.522694}
   - {x: -6.580496, y: 4.772694}
-  - {x: 53.4495, y: 4.3526936}
+  - {x: 53.4495, y: 4.352694}
+  - {x: 73.1695, y: -0.4773059}
+  - {x: 55.169502, y: -25.477306}
+  - {x: 60.325417, y: -1.2393537}
   - {x: 53.4495, y: -1.6473064}
   - {x: 47.769585, y: -1.6473064}
   - {x: 48.169502, y: -7.477306}
@@ -652,7 +715,7 @@ MonoBehaviour:
   - {x: 0.44950294, y: -4.6473064}
   - {x: -1.0469646, y: -1.6473063}
   - {x: -4.550497, y: -4.6473064}
-  - {x: -6.550497, y: -1.6473063}
+  - {x: -6.550497, y: -1.6473064}
   m_ShadowSegment: []
 --- !u!60 &8282983657876855196
 PolygonCollider2D:
@@ -700,9 +763,16 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -6.550497, y: -1.6473063}
+    - - {x: -6.550497, y: -1.6473064}
+      - {x: -13.467165, y: -1.5703537}
+      - {x: -5.830496, y: -31.477306}
+      - {x: -21.830496, y: -1.4773059}
+      - {x: -19.830496, y: 2.522694}
       - {x: -6.580496, y: 4.772694}
-      - {x: 53.4495, y: 4.3526936}
+      - {x: 53.4495, y: 4.352694}
+      - {x: 73.1695, y: -0.4773059}
+      - {x: 55.169502, y: -25.477306}
+      - {x: 60.325417, y: -1.2393537}
       - {x: 53.4495, y: -1.6473064}
       - {x: 47.769585, y: -1.6473064}
       - {x: 48.169502, y: -7.477306}
@@ -724,7 +794,7 @@ PolygonCollider2D:
       - {x: 0.44950294, y: -4.6473064}
       - {x: -1.0469646, y: -1.6473063}
       - {x: -4.550497, y: -4.6473064}
-      - {x: -6.550497, y: -1.6473063}
+      - {x: -6.550497, y: -1.6473064}
   m_UseDelaunayMesh: 0
 --- !u!114 &5589628961493332091
 MonoBehaviour:
