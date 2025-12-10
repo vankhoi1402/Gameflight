@@ -82,7 +82,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f832fe69abec28d4fa54d2fafec5f76c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 100
+  value: 10
+  popupTextPrefab: {fileID: 3256739211714773477, guid: 22dc99b085c1a69489f301c72a36cd8e, type: 3}
 --- !u!1 &3519531975271893773
 GameObject:
   m_ObjectHideFlags: 0
